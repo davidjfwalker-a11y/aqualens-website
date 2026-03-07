@@ -650,18 +650,25 @@ export default function Home() {
       <section id="download" className="cta-section">
         <div className="container">
           <div className="cta-card reveal">
+            <span className="hero-badge" style={{ marginBottom: "1rem", display: "inline-flex" }}>
+              <i className="fa-solid fa-flask"></i> Pre-Release Beta
+            </span>
             <h2>
               Ready to Dive <span className="text-gradient">Deeper?</span>
             </h2>
             <p>
-              We are currently in private beta testing on Google Play. Preparing for a massive public launch on both the App Store and Google Play in <strong>early April 2026</strong>.
+              AquaLens is currently in <strong>pre-release beta</strong> on Google Play. We&apos;re preparing for a full public launch on both the App Store and Google Play in <strong>early April 2026</strong>.
+            </p>
+            <p style={{ fontSize: "1.05rem", color: "#d1d5db", marginTop: "0.5rem" }}>
+              <i className="fa-solid fa-gift" style={{ color: "#34d399", marginRight: "0.5rem" }}></i>
+              Want <strong style={{ color: "#34d399" }}>free Pro access</strong>? Email us to receive a complimentary access code — available to all early beta testers.
             </p>
             <a
-              href="mailto:aqualensapp@gmail.com?subject=AquaLens%20Beta%20Tester%20Request&body=Hi%2C%20I%27d%20love%20to%20be%20an%20early%20tester%20for%20AquaLens!%0A%0ADevice%3A%20%0APlatform%20(iOS%2FAndroid)%3A%20"
+              href="mailto:aqualensapp@gmail.com?subject=AquaLens%20Beta%20%E2%80%93%20Free%20Pro%20Access%20Code%20Request&body=Hi%2C%20I%27d%20love%20to%20try%20AquaLens%20and%20get%20a%20free%20Pro%20access%20code!%0A%0ADevice%3A%20%0APlatform%20(iOS%2FAndroid)%3A%20"
               className="cta-email-btn"
             >
               <i className="fa-solid fa-envelope"></i>
-              Become a Beta Tester
+              Email for Free Access Code
             </a>
             <p className="cta-subtitle">
               or email us directly at{" "}
@@ -681,13 +688,19 @@ export default function Home() {
                   <strong>App Store</strong>
                 </span>
               </div>
-              <div className="store-badge" style={{ opacity: 1, cursor: "default", background: "rgba(255,255,255,0.05)" }}>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.aqualens.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="store-badge"
+                style={{ opacity: 1, cursor: "pointer", background: "rgba(255,255,255,0.05)", textDecoration: "none", color: "inherit" }}
+              >
                 <span className="store-icon">▶️</span>
                 <span className="store-text">
-                  <small>Currently in Beta | Launch April</small>
+                  <small>Pre-Release Beta — Try Now</small>
                   <strong>Google Play</strong>
                 </span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
