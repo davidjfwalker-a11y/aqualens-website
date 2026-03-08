@@ -99,13 +99,6 @@ const jsonLd = {
     priceCurrency: "USD",
     description: "Free with optional Pro subscription",
   },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5.0",
-    ratingCount: "1",
-    bestRating: "5",
-    worstRating: "1",
-  },
 };
 
 export default function RootLayout({

@@ -137,15 +137,10 @@ export default function Home() {
             <li><a href="#identification">AI Scanner</a></li>
             <li><a href="#health">Health</a></li>
             <li><a href="#journal">The Brain</a></li>
-            <li><a href="#maintenance">Maintenance</a></li>
-            <li><a href="#hardware">Labs & Hardware</a></li>
-            <li><a href="#filter-lab">Filter Lab</a></li>
-            <li><a href="#nutrients">Nutrient Lab</a></li>
-            <li><a href="#opex">OPEX Lab</a></li>
-            <li><a href="#finances">Financial Tracker</a></li>
+            <li><a href="#hardware">Labs</a></li>
             <li><a href="#gallery">Gallery</a></li>
           </ul>
-          <a href="#download" className="nav-cta">Join Beta</a>
+          <a href="#download" className="nav-cta">Download Free</a>
         </div>
       </nav>
 
@@ -154,16 +149,42 @@ export default function Home() {
         <div className="container hero-inner">
           <div className="hero-content">
             <span className="hero-badge animate-in">
-              <i className="fa-brands fa-google-play"></i> Currently in Play Beta
+              <i className="fa-solid fa-rocket"></i> Now Available on iOS & Android
             </span>
             <h1 className="animate-in animate-delay-1">
               Complete <span className="text-gradient">Aquarium Intelligence</span>
             </h1>
             <p className="hero-subtitle animate-in animate-delay-2">
               The ultimate AI companion for your underwater ecosystem. Instant species ID, total auto-journaling, and pro-grade engineering labs.
-              <br /><br />
-              <strong>Launching on App Store & Google Play early April.</strong>
             </p>
+            <div className="animate-in animate-delay-3" style={{ display: "flex", gap: "1rem", marginTop: "2rem", flexWrap: "wrap" }}>
+              <a
+                href="https://apps.apple.com/app/aqualens/id6742045579"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="store-badge"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <span className="store-icon">🍎</span>
+                <span className="store-text">
+                  <small>Download on the</small>
+                  <strong>App Store</strong>
+                </span>
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.aqualens.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="store-badge"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <span className="store-icon">▶️</span>
+                <span className="store-text">
+                  <small>Get it on</small>
+                  <strong>Google Play</strong>
+                </span>
+              </a>
+            </div>
 
 
           </div>
@@ -651,43 +672,29 @@ export default function Home() {
         <div className="container">
           <div className="cta-card reveal">
             <span className="hero-badge" style={{ marginBottom: "1rem", display: "inline-flex" }}>
-              <i className="fa-solid fa-flask"></i> Pre-Release Beta
+              <i className="fa-solid fa-rocket"></i> Available Now
             </span>
             <h2>
               Ready to Dive <span className="text-gradient">Deeper?</span>
             </h2>
             <p>
-              AquaLens is currently in <strong>pre-release beta</strong> on Google Play. We&apos;re preparing for a full public launch on both the App Store and Google Play in <strong>early April 2026</strong>.
-            </p>
-            <p style={{ fontSize: "1.05rem", color: "#d1d5db", marginTop: "0.5rem" }}>
-              <i className="fa-solid fa-gift" style={{ color: "#34d399", marginRight: "0.5rem" }}></i>
-              Want <strong style={{ color: "#34d399" }}>free Pro access</strong>? Email us to receive a complimentary access code — available to all early beta testers.
-            </p>
-            <a
-              href="mailto:aqualensapp@gmail.com?subject=AquaLens%20Beta%20%E2%80%93%20Free%20Pro%20Access%20Code%20Request&body=Hi%2C%20I%27d%20love%20to%20try%20AquaLens%20and%20get%20a%20free%20Pro%20access%20code!%0A%0ADevice%3A%20%0APlatform%20(iOS%2FAndroid)%3A%20"
-              className="cta-email-btn"
-            >
-              <i className="fa-solid fa-envelope"></i>
-              Email for Free Access Code
-            </a>
-            <p className="cta-subtitle">
-              or email us directly at{" "}
-              <a
-                href="mailto:aqualensapp@gmail.com"
-                style={{ color: "#34d399", fontWeight: 600 }}
-              >
-                aqualensapp@gmail.com
-              </a>
+              Download AquaLens free and start managing your aquarium with AI-powered intelligence. Identify species, scan water tests, diagnose health issues, and track your entire ecosystem.
             </p>
 
             <div style={{ display: "flex", gap: "1rem", justifyContent: "center", margin: "2.5rem auto 0", flexWrap: "wrap", maxWidth: "600px" }}>
-              <div className="store-badge" style={{ opacity: 1, cursor: "default", background: "rgba(255,255,255,0.05)" }}>
+              <a
+                href="https://apps.apple.com/app/aqualens/id6742045579"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="store-badge"
+                style={{ opacity: 1, cursor: "pointer", background: "rgba(255,255,255,0.05)", textDecoration: "none", color: "inherit" }}
+              >
                 <span className="store-icon">🍎</span>
                 <span className="store-text">
-                  <small>Launching Early April 2026</small>
+                  <small>Download on the</small>
                   <strong>App Store</strong>
                 </span>
-              </div>
+              </a>
               <a
                 href="https://play.google.com/store/apps/details?id=com.aqualens.app"
                 target="_blank"
@@ -697,11 +704,21 @@ export default function Home() {
               >
                 <span className="store-icon">▶️</span>
                 <span className="store-text">
-                  <small>Pre-Release Beta — Try Now</small>
+                  <small>Get it on</small>
                   <strong>Google Play</strong>
                 </span>
               </a>
             </div>
+
+            <p className="cta-subtitle" style={{ marginTop: "1.5rem" }}>
+              Questions? Reach us at{" "}
+              <a
+                href="mailto:aqualensapp@gmail.com"
+                style={{ color: "#34d399", fontWeight: 600 }}
+              >
+                aqualensapp@gmail.com
+              </a>
+            </p>
           </div>
         </div>
       </section>
@@ -721,6 +738,9 @@ export default function Home() {
             </li>
             <li>
               <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="/privacy" style={{ opacity: 0.7 }}>Privacy Policy</a>
             </li>
           </ul>
           <span className="footer-copy">
